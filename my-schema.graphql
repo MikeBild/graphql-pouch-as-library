@@ -1,0 +1,9 @@
+type Setting implements Node {
+  id: ID!
+  rev: String
+  key: String
+}
+
+type Query {
+  settingByKey(key: String!): Setting
+}

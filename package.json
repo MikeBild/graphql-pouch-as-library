@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "graphql-pouch-custom-server",
+  "version": "1.0.0",
+  "description": "A custom GraphQL-Pouch server.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Mike Bild <mike.bild@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "express-graphql": "^0.5.3",
+    "graphql-pouch": "git+https://github.com/MikeBild/graphql-pouch.git",
+    "morgan": "^1.7.0"
+  }
+}
