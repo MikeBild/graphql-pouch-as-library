@@ -1,4 +1,4 @@
-# GraphQL-Pouch with Express
+# Using Express and GraphQL-Pouch as a Library
 
 ## How to use
 
